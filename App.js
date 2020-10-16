@@ -75,10 +75,6 @@ const DrawerNavigator = () => {
       <Drawer.Screen name="Home" component={Home} />
       <Drawer.Screen name="About" component={About}/>
       <Drawer.Screen name="Show" component={RootTabNavigator}/>
-      {/* <Drawer.Screen name="ScrollViewScreen" component={ScrollViewScreen} />
-      <Drawer.Screen name="FlatListScreen" component={FlatListScreen} />
-      <Drawer.Screen name="SectionListScreen" component={SectionListScreen} />
-      <Drawer.Screen name="Animations" component={RootTabNavigator} /> */}
     </Drawer.Navigator>
   );
 };
